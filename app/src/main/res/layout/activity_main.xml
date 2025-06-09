@@ -37,6 +37,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
         app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <ImageButton
+        android:id="@+id/imgButtonFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtEstadoModo"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+    <ImageButton
+        android:id="@+id/imgButtonHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgButtonFecha"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
     <EditText
         android:id="@+id/edtEstadoModo"
         android:layout_width="276dp"
